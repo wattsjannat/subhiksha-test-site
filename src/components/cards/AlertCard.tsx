@@ -2,6 +2,7 @@ import React from 'react';
 import { clampList } from '@/utils/clampList';
 import { OverflowPill } from './OverflowPill';
 
+
 const C = 'var(--theme-chart-line)';
 const getColor = (opacity: number) => `color-mix(in srgb, var(--theme-chart-line) ${opacity}%, transparent)`;
 const SEVERITY_STYLE: Record<string, { dot: string; border: string }> = {
